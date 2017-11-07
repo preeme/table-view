@@ -43,7 +43,11 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Groceries" id="LjX-eK-Cz3">
                         <barButtonItem key="leftBarButtonItem" systemItem="edit" id="8sE-pi-d51"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="eDF-RO-VvT"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="eDF-RO-VvT">
+                            <connections>
+                                <action selector="addToList:" destination="xe7-J5-gKV" id="9zo-bo-zVu"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tXQ-mi-1Ue" userLabel="First Responder" sceneMemberID="firstResponder"/>
